@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="zh-cn">
+    <AppName>娜娜</AppName>
+    <Example>娜娜，你好香</Example>
+
+    <Command Name="CortanaYouAreFragrant">
+      <Example>娜娜，你好香啊</Example>
+      <ListenFor>[娜娜]你好香[啊]</ListenFor>
+      <Feedback>什...什么？</Feedback>
+      <Navigate />
+    </Command>
+  </CommandSet>
+</VoiceCommands>
